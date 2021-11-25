@@ -54,7 +54,7 @@ const showData = (results, classe) => {
             <li><strong>Hair Color:</strong> ${item.hair_color}</li>
             <li><strong>Skin Color:</strong> ${item.skin_color}</li>
             <li><strong>Eye Color:</strong> ${item.eye_color}</li>`
-            cardImage.src = "/images/luke.png";
+            cardImage.src = "../images/luke.png";
         break;
       case ".spaceships-cards":
         li+=`<li><strong>Model:</strong> ${item.model}</li>
@@ -62,7 +62,7 @@ const showData = (results, classe) => {
             <li><strong>Cost in Credits:</strong> ${item.cost_in_credits}</li>
             <li><strong>Length:</strong> ${item.length}</li>
             <li><strong>Max Atmosphering Speed:</strong> ${item.max_atmosphering_speed}</li>`
-            cardImage.src = "/images/starship.png";
+            cardImage.src = "../images/starship.png";
             cardImage.style.paddingTop = '10px'
         break;
     }

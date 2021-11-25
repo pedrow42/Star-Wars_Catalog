@@ -10,7 +10,7 @@ html{
     scroll-behavior: smooth;
 }
 body{
-    background-image: linear-gradient(to top, transparent 0%, #1F2738 100%), url(/images/spaceship.jpg);
+    background-image: linear-gradient(to top, transparent 0%, #1F2738 100%), url(../images/spaceship.jpg);
     background-color: #1F2738;
     background-repeat: no-repeat;
     background-position: 0 120px;
